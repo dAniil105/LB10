@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
 char operation;
+int c;
 int a;
 cout << "Enter first naumber:" << /n;
 cin >> a;
@@ -13,7 +14,9 @@ cin >> b;
 cout  << "Select operation: +, -" << /n;
 cin >> char;
 if (char == +)
-  cout << a + b;
+  cout << c == a + b;
 else 
-  cout << a - b;
+  cout << c == a - b;
+
+cout << c;
 }
