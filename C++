@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+char operation;
+int a;
+cout << "Enter first naumber:" << /n;
+cin >> a;
+int b;
+cout << "Enter second number:" << /n;
+cin >> b;
+cout  << "Select operation: +, -" << /n;
+cin >> char;
+if (char == +)
+  cout << a + b;
+else 
+  cout << a - b;
+}
